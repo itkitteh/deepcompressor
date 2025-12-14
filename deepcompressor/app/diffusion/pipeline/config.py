@@ -330,6 +330,8 @@ class DiffusionPipelineConfig:
         if not path:
             if name == "sdxl":
                 path = "stabilityai/stable-diffusion-xl-base-1.0"
+            elif name == "wai-nsfw-illustrious":
+                path = "dhead/wai-nsfw-illustrious-sdxl-v140-sdxl"
             elif name == "sdxl-turbo":
                 path = "stabilityai/sdxl-turbo"
             elif name == "pixart-sigma":
